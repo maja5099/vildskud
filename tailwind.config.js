@@ -10,11 +10,11 @@ module.exports = {
         white: "#ffffff",
       },
       fontFamily: {
-        'anton': "'Anton', sans-serif",
-        'roboto': "'Roboto', sans-serif",
+        anton: "'Anton', sans-serif",
+        roboto: "'Roboto', sans-serif",
       },
       backgroundImage: {
-        // 'heroBg': "url('/img/bg.jpg')",
+        heroBg: "url('/src/img/skammer-du-dig-nu.webp')",
       },
     },
   },
