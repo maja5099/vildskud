@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud programside</title>
     <!-- Fonts start -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fonts slut -->
     <link rel="stylesheet" href="tailwind.css" />
   </head>
@@ -16,47 +19,33 @@
     <!-- Navigation start -->
     <header class="bg-purple font-anton">
       <div
-        class="flex items-center justify-between px-5 h-24 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
+        class="mx-auto flex h-24 max-w-screen-2xl items-center justify-between px-5 sm:px-6 lg:px-8"
       >
         <div class="flex items-center">
           <a href="index.html" class="flex">
-            <span class="inline-block top-3 left-3 w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 absolute bg-gray-200 rounded-full"></span>
+            <span
+              class="absolute top-3 left-3 inline-block h-24 w-24 rounded-full bg-gray-200 md:h-32 md:w-32 lg:h-36 lg:w-36"
+            ></span>
           </a>
         </div>
-    
-        <div class="flex items-center justify-end flex-1">
+
+        <div class="flex flex-1 items-center justify-end">
           <nav
-            class="text-red tracking-wide text-sm md:text-base lg:text-lg gap-5 lg:gap-14 flex"
+            class="text-red flex gap-5 text-sm tracking-wide md:text-base lg:gap-14 lg:text-lg"
           >
-            <a
-              href="/about"
-              class="block h-16 leading-[4rem]"
-            >
-              Program
-            </a>
-    
-            <a
-              href="/news"
-              class="block h-16 leading-[4rem]"
-            >
+            <a href="/about" class="block h-16 leading-[4rem]"> Program </a>
+
+            <a href="/news" class="block h-16 leading-[4rem]">
               Bliv frivillig
             </a>
-    
-            <a
-              href="/products"
-              class="block h-16 leading-[4rem]"
-            >
+
+            <a href="/products" class="block h-16 leading-[4rem]">
               Om Vildskud
             </a>
-    
-            <a
-              href="/contact"
-              class="block h-16 leading-[4rem]"
-            >
-              Kontakt
-            </a>
+
+            <a href="/contact" class="block h-16 leading-[4rem]"> Kontakt </a>
           </nav>
-    
+
           <!-- <div class="flex items-center ml-8">
             <div
               class="flex items-center"
@@ -92,119 +81,258 @@
     <!-- Navigation slut -->
 
     <!-- Hero start -->
-    <section class="bg-gray-50">
-      <div class="max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
-        <div class="max-w-3xl mx-auto text-center text-red">
-          <h1>
-            Vildskud festival 2022
-          </h1>
-          <h2 class="mt-10 text-red">6.-8. april</h2>
-    
-          <div id="button" class="flex flex-wrap justify-center gap-4 mt-20">
-            <a class="relative inline-block group focus:outline-none focus:ring" href="/download">
-              <span class="absolute inset-0 transition-transform translate-x-0 translate-y-0 bg-purple group-hover:translate-y-1.5 group-hover:translate-x-1.5"></span>
-            
-              <span class="relative inline-block px-8 py-3 text-lg  text-red border-2 border-current">
-                Se programmet
-              </span>
-            </a>
-          </div>
+    <section class="bg-red">
+      <div
+        class="mx-auto max-h-10 max-w-screen-xl px-4 py-24 lg:flex lg:items-center"
+      >
+        <div class="text-purple mx-auto max-w-3xl text-center">
+          <h1>Program 2022</h1>
         </div>
       </div>
     </section>
     <!-- Hero slut -->
 
-    <!-- Midlertidig navigation start -->
-    <div class="py-5 px-5 font-roboto">
-      <p>Midlertidig navigation:</p>
-      <div class="grid grid-rows-3 gap-1 underline">
-        <a href="index.html">Forside</a>
-        <a href="programside.html">Programside</a>
-        <a href="singleview.html">Singleview</a>
+    <!--Filtrerings knapper start -->
+    <div class="mt-4 flex justify-center gap-4">
+      <div id="button" class="">
+        <a
+          class="group relative inline-block focus:outline-none focus:ring"
+          href="/download"
+        >
+          <span
+            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+          ></span>
+
+          <span
+            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+          >
+            <p class="text-red ml-0 text-xs">TIRSDAG</p>
+            06. JULI
+          </span>
+        </a>
+      </div>
+
+      <div id="button" class="">
+        <a
+          class="group relative inline-block focus:outline-none focus:ring"
+          href="/download"
+        >
+          <span
+            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+          ></span>
+
+          <span
+            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+          >
+            <p class="text-red ml-0 text-xs">TIRSDAG</p>
+            06. JULI
+          </span>
+        </a>
+      </div>
+
+      <div id="button" class="">
+        <a
+          class="group relative inline-block focus:outline-none focus:ring"
+          href="/download"
+        >
+          <span
+            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+          ></span>
+
+          <span
+            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+          >
+            <p class="text-red ml-0 text-xs">TIRSDAG</p>
+            06. JULI
+          </span>
+        </a>
+      </div>
+      <div id="button" class="">
+        <a
+          class="group relative inline-block focus:outline-none focus:ring"
+          href="/download"
+        >
+          <span
+            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+          ></span>
+
+          <span
+            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+          >
+            <p class="text-red ml-0 text-xs">TIRSDAG</p>
+            06. JULI
+          </span>
+        </a>
       </div>
     </div>
-    <!-- Midlertidig navigation slut -->
+
+    <!--Filtrerings knapper slut -->
 
     <!-- Content start -->
-      <!-- I år kan du opleve sektion start -->
-     
+    <!-- Forestillinger -->
+    <div class="mx-auto flex max-w-screen-xl gap-4 px-4 py-24 sm:px-6 lg:px-8">
+      <!-- Forestilling - skammer du dig nu start -->
+
+      <a href="" class="block w-full overflow-hidden">
+        <div class="relative flex">
+          <img
+            class="h-72 w-full object-cover"
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+          <div class="absolute top-28 opacity-0 hover:opacity-100">
+            <h4 class="bg-red p-2 text-2xl font-bold">Skammer du dig nu?</h4>
+          </div>
+
+          <div class="bg-green absolute top-0 w-28 px-4 py-1">
+            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+          </div>
+        </div>
+
+        <div class="bg-green px-4 py-1">
+          <h3 class="text-xl font-bold text-black">LOKATION</h3>
+        </div>
+      </a>
+      <!-- Forestilling - skammer du dig nu slut-->
+
+      <!-- Forestilling - skammer du dig nu start -->
+
+      <a href="" class="block w-full overflow-hidden">
+        <div class="relative flex">
+          <img
+            class="h-72 w-full object-cover"
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
+          <div class="absolute top-28 opacity-0 hover:opacity-100">
+            <h4 class="bg-red p-2 text-2xl font-bold">Skammer du dig nu?</h4>
+          </div>
+
+          <div class="bg-green absolute top-0 w-28 px-4 py-1">
+            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+          </div>
+        </div>
+
+        <div class="bg-green px-4 py-1">
+          <h3 class="text-xl font-bold text-black">LOKATION</h3>
+        </div>
+      </a>
+      <!-- Forestilling - skammer du dig nu slut-->
+    </div>
+    <!--Kort start-->
+    <div class="mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+      <div class="bg-green mb-10">
+        <h3 class="text-red py-4 text-center font-bold">
+          Kort over spillesteder
+        </h3>
+      </div>
+    </div>
+    <!--Kort slut-->
     <!-- Content slut -->
 
     <!-- Footer start -->
     <footer class="bg-green">
-      <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="flex justify-center">
-        <div class="grid grid-cols-2 gap-x-20 gap-y-10 lg:grid-cols-4">
-          <!-- Social start -->
-          <div>    
-            <p class="font-medium font-anton text-red">
-              Vær' social med os!
-            </p>
-    
-            <div class="flex justify-center mt-4 gap-1 space-x-6 text-gray-500">
-              <!-- Facebook start -->
-              <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
-                <span class="sr-only"> Facebook </span>
-                <svg class="w-8 h-8" fill="#F2443B" viewBox="0 0 24 24" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
-                </svg>
-              </a>
-              <!-- Facebook slut -->
+          <div class="grid grid-cols-2 gap-x-20 gap-y-10 lg:grid-cols-4">
+            <!-- Social start -->
+            <div>
+              <p class="font-anton text-red font-medium">Vær' social med os!</p>
 
-              <!-- Instagram start -->
-              <a class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
-                <span class="sr-only"> Instagram </span>
-                <svg class="w-8 h-8" fill="#F2443B" viewBox="0 0 24 24" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
-                </svg>
-              </a>
-              <!-- Instagram slut -->
+              <div
+                class="mt-4 flex justify-center gap-1 space-x-6 text-gray-500"
+              >
+                <!-- Facebook start -->
+                <a
+                  class="hover:opacity-75"
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="sr-only"> Facebook </span>
+                  <svg
+                    class="h-8 w-8"
+                    fill="#F2443B"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <!-- Facebook slut -->
+
+                <!-- Instagram start -->
+                <a
+                  class="hover:opacity-75"
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="sr-only"> Instagram </span>
+                  <svg
+                    class="h-8 w-8"
+                    fill="#F2443B"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <!-- Instagram slut -->
+              </div>
             </div>
-          </div>
-          <!-- Social slut -->
-          
-          <!-- Kontakt start -->
-          <div>
-              <p class="font-medium font-anton text-red">
-                Kontakt
-              </p>
-    
-              <nav class="flex flex-col mt-4 space-y-2 text-sm text-black  font-roboto">
+            <!-- Social slut -->
+
+            <!-- Kontakt start -->
+            <div>
+              <p class="font-anton text-red font-medium">Kontakt</p>
+
+              <nav
+                class="font-roboto mt-4 flex flex-col space-y-2 text-sm text-black"
+              >
                 <a class="hover:opacity-75" href=""> email@email.com </a>
                 <a class="hover:opacity-75" href=""> Tlf. 12 34 56 78 </a>
               </nav>
-          </div>
-          <!-- Kontakt slut -->
+            </div>
+            <!-- Kontakt slut -->
 
-          <!-- Mere om os start -->
-          <div>
-              <p class="font-medium font-anton text-red">
-                Mere om os
-              </p>
-    
-              <nav class="flex flex-col mt-4 space-y-2 text-sm text-black  font-roboto">
+            <!-- Mere om os start -->
+            <div>
+              <p class="font-anton text-red font-medium">Mere om os</p>
+
+              <nav
+                class="font-roboto mt-4 flex flex-col space-y-2 text-sm text-black"
+              >
                 <a class="hover:opacity-75" href=""> Samarbejdspartnere </a>
                 <a class="hover:opacity-75" href=""> Vores team </a>
                 <a class="hover:opacity-75" href=""> Arkiv </a>
               </nav>
-          </div>
-          <!-- Mere om os slut -->
-    
-          <!-- Politikker start -->
-          <div>
-              <p class="font-medium font-anton text-red">
-                Politikker
-              </p>
-    
-              <nav class="flex flex-col mt-4 space-y-2 text-sm text-black  font-roboto">
+            </div>
+            <!-- Mere om os slut -->
+
+            <!-- Politikker start -->
+            <div>
+              <p class="font-anton text-red font-medium">Politikker</p>
+
+              <nav
+                class="font-roboto mt-4 flex flex-col space-y-2 text-sm text-black"
+              >
                 <a class="hover:opacity-75" href=""> Privatlivspolitik </a>
                 <a class="hover:opacity-75" href=""> Cookiepolitik </a>
               </nav>
-          </div>
-          <!-- Politkker slut -->
+            </div>
+            <!-- Politkker slut -->
           </div>
         </div>
-        <p class="mt-10 lg:mt-14 text-xs text-center text-black">
+        <p class="mt-10 text-center text-xs text-black lg:mt-14">
           &copy; 2022 Vildskud
         </p>
       </div>
