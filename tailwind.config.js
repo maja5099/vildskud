@@ -9,7 +9,7 @@ module.exports = {
         black: "#000000",
       },
       fontFamily: {
-        // 'sheffield': "'mrsheffield-pro', sans-serif",
+        'anton': "'Anton', sans-serif",
       },
       backgroundImage: {
         // 'heroBg': "url('/img/bg.jpg')",
