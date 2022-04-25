@@ -15,4 +15,7 @@
     #button {
         @apply font-anton;
       }
+    p {
+        @apply font-roboto text-black;
+      }
   }
