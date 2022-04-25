@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    /* h1 {
-      @apply text-green text-5xl font-bold lg:text-6xl;
-    } */
+    h1 {
+      @apply text-5xl md:text-6xl lg:text-7xl font-anton uppercase;
+    }
+    h2 {
+        @apply text-3xl md:text-4xl lg:text-5xl text-black font-anton uppercase;
+      }
+    h3 {
+        @apply text-xl md:text-2xl lg:text-3xl text-red font-anton uppercase;
+      }
   }
