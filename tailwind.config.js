@@ -7,6 +7,7 @@ module.exports = {
         purple: "#DAB7F9",
         red: "#F2443B",
         black: "#000000",
+        white: "#ffffff",
       },
       fontFamily: {
         'anton': "'Anton', sans-serif",
