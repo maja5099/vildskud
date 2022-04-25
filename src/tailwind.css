@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-      @apply text-5xl md:text-6xl lg:text-7xl font-anton uppercase;
+      @apply text-5xl md:text-6xl lg:text-7xl font-anton uppercase tracking-wide;
     }
     h2 {
         @apply text-3xl md:text-4xl lg:text-5xl text-black font-anton uppercase;
@@ -13,7 +13,7 @@
         @apply text-xl md:text-2xl lg:text-3xl text-red font-anton uppercase;
       }
     #button {
-        @apply font-anton;
+        @apply font-anton tracking-wide;
       }
     p {
         @apply font-roboto text-black;
