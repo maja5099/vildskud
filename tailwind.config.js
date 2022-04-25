@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         'anton': "'Anton', sans-serif",
+        'roboto': "'Roboto', sans-serif",
       },
       backgroundImage: {
         // 'heroBg': "url('/img/bg.jpg')",
