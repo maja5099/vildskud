@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Index/forside -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/index.html</loc>
+    </url>
+
+    <!-- Programside -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/programside.html</loc>
+    </url>
+
+    <!-- Singleview -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview.html</loc>
+    </url>
+
+</urlset>
