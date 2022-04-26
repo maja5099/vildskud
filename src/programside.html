@@ -14,6 +14,7 @@
     />
     <!-- Fonts slut -->
     <link rel="stylesheet" href="tailwind.css" />
+    <script src="/mixitup.min.js" defer></script>
   </head>
   <body>
     <!-- Navigation start -->
@@ -93,231 +94,259 @@
     <!-- Hero slut -->
 
     <!--Filtrerings knapper start -->
-    <div class="mt-6 flex justify-center gap-6">
-      <div id="button" class="">
-        <a
-          class="group relative inline-block focus:outline-none focus:ring"
-          href="/download"
-        >
-          <span
-            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
-          ></span>
+    <section class="billeder">
+      <div class="mt-6 flex justify-center gap-6">
+        <form>
+          <fieldset class="input-field" data-filter-group="dato">
+            <button type="button" data-toggle=".onsdag">
+              <div
+                class="group relative inline-block focus:outline-none focus:ring"
+              >
+                <span
+                  class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+                ></span>
 
-          <span
-            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
-          >
-            <p class="text-red ml-0 text-xs">ONSDAG</p>
-            06. JULI
-          </span>
-        </a>
+                <span
+                  class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+                >
+                  <p class="text-red ml-0 text-xs">ONSDAG</p>
+                  06. JULI
+                </span>
+              </div>
+            </button>
+
+            <button type="button" data-toggle=".torsdag">
+              <div
+                class="group relative inline-block focus:outline-none focus:ring"
+              >
+                <span
+                  class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+                ></span>
+
+                <span
+                  class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+                >
+                  <p class="text-red ml-0 text-xs">TORSDAG</p>
+                  07. JULI
+                </span>
+              </div>
+            </button>
+
+            <button type="button" data-toggle=".fredag">
+              <div
+                class="group relative inline-block focus:outline-none focus:ring"
+              >
+                <span
+                  class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+                ></span>
+
+                <span
+                  class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+                >
+                  <p class="text-red ml-0 text-xs">FREDAG</p>
+                  08. JULI
+                </span>
+              </div>
+            </button>
+
+            <button type="reset">
+              <div
+                class="group relative inline-block focus:outline-none focus:ring"
+              >
+                <span
+                  class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
+                ></span>
+
+                <span
+                  class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
+                >
+                  <p class="text-red ml-0 text-xs">SE ALLE</p>
+                  DAGE
+                </span>
+              </div>
+            </button>
+          </fieldset>
+        </form>
       </div>
+      <!--Filtrerings knapper slut -->
 
-      <div id="button" class="">
+      <!-- Content start -->
+      <div
+        class="mx-auto grid max-w-screen-lg grid-cols-2 gap-6 px-4 py-6 sm:px-6 lg:px-8"
+      >
+        <!-- Forestilling - skammer du dig nu start -->
         <a
-          class="group relative inline-block focus:outline-none focus:ring"
-          href="/download"
+          href=""
+          class="mix torsdag block w-full overflow-hidden hover:opacity-70"
         >
-          <span
-            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
-          ></span>
+          <div class="relative flex">
+            <img
+              class="h-72 w-full object-cover"
+              src="img/skammer-du-dig-nu.webp"
+              alt=""
+            />
+            <div
+              class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[7.4rem]"
+            >
+              <h4 class="bg-red p-2 text-2xl font-bold">Skammer du dig nu?</h4>
+            </div>
 
-          <span
-            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
-          >
-            <p class="text-red ml-0 text-xs">TORSDAG</p>
-            07. JULI
-          </span>
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">
+              Christianshavn Beboerhus
+            </h3>
+          </div>
         </a>
-      </div>
+        <!-- Forestilling - skammer du dig nu slut-->
 
-      <div id="button" class="">
+        <!-- Forestilling - maskeret start -->
+
         <a
-          class="group relative inline-block focus:outline-none focus:ring"
-          href="/download"
+          href=""
+          class="mix fredag block w-full overflow-hidden hover:opacity-75"
         >
-          <span
-            class="bg-purple absolute inset-0 translate-x-0 translate-y-0 transition-transform group-hover:translate-y-1.5 group-hover:translate-x-1.5"
-          ></span>
+          <div class="relative flex">
+            <img
+              class="h-72 w-full object-cover"
+              src="img/maskeret.webp"
+              alt=""
+            />
+            <div class="absolute top-32 opacity-0 hover:opacity-100 lg:left-44">
+              <h4 class="bg-red p-2 text-2xl font-bold">Maskeret</h4>
+            </div>
 
-          <span
-            class="text-red relative inline-block border-2 border-current px-10 py-2 pl-8"
-          >
-            <p class="text-red ml-0 text-xs">FREDAG</p>
-            08. JULI
-          </span>
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">Zeppelin</h3>
+          </div>
         </a>
+        <!-- Forestilling - maskeret slut-->
+
+        <!-- Forestilling - alt kører ik start -->
+        <a
+          href=""
+          class="mix onsdag block w-full overflow-hidden hover:opacity-70"
+        >
+          <div class="relative flex">
+            <img
+              class="h-72 w-full object-cover"
+              src="img/alt-koerer-ik.webp"
+              alt=""
+            />
+            <div
+              class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[10.4rem]"
+            >
+              <h4 class="bg-red p-2 text-2xl font-bold">Alt kører, ik</h4>
+            </div>
+
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">
+              Vox - Teaterhuset
+            </h3>
+          </div>
+        </a>
+        <!-- Forestilling - alt kører ik slut-->
+
+        <!-- Forestilling - wish start -->
+
+        <a
+          href=""
+          class="mix fredag block w-full overflow-hidden hover:opacity-75"
+        >
+          <div class="relative flex">
+            <img class="h-72 w-full object-cover" src="img/wish.webp" alt="" />
+            <div
+              class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[12rem]"
+            >
+              <h4 class="bg-red p-2 text-2xl font-bold">Wish</h4>
+            </div>
+
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">
+              XENON - Teaterhuset
+            </h3>
+          </div>
+        </a>
+        <!-- Forestilling - wish slut-->
+
+        <!-- Forestilling - et surt opstød start -->
+
+        <a
+          href=""
+          class="mix fredag block w-full overflow-hidden hover:opacity-70"
+        >
+          <div class="relative flex">
+            <img
+              class="h-72 w-full object-cover"
+              src="img/et-surt-opstoed.webp"
+              alt=""
+            />
+            <div
+              class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[9.5rem]"
+            >
+              <h4 class="bg-red p-2 text-2xl font-bold">Et surt opstød</h4>
+            </div>
+
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">
+              VOX - Teaterhuset
+            </h3>
+          </div>
+        </a>
+        <!-- Forestilling - et surt opstød slut-->
+
+        <!-- Forestilling - stå ret, få ret start -->
+
+        <a
+          href=""
+          class="mix onsdag block w-full overflow-hidden hover:opacity-75"
+        >
+          <div class="relative flex">
+            <img
+              class="h-72 w-full object-cover"
+              src="img/staa-ret-faa-ret.webp"
+              alt=""
+            />
+            <div class="absolute top-32 opacity-0 hover:opacity-100 lg:left-40">
+              <h4 class="bg-red p-2 text-2xl font-bold">Stå ret, få ret</h4>
+            </div>
+
+            <div class="bg-green absolute top-0 w-28 px-4 py-1">
+              <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
+            </div>
+          </div>
+
+          <div class="bg-green px-4 py-1">
+            <h3 class="text-center text-xl font-bold text-black">Zeppelin</h3>
+          </div>
+        </a>
+        <!-- Forestilling - stå ret, få ret slut-->
       </div>
-    </div>
-
-    <!--Filtrerings knapper slut -->
-
-    <!-- Content start -->
-    <!-- Forestillinger - boks 1 start -->
-    <div class="mx-auto flex max-w-screen-lg gap-6 px-4 py-6 sm:px-6 lg:px-8">
-      <!-- Forestilling - skammer du dig nu start -->
-
-      <a href="" class="block w-full overflow-hidden hover:opacity-70">
-        <div class="relative flex">
-          <img
-            class="h-72 w-full object-cover"
-            src="img/skammer-du-dig-nu.webp"
-            alt=""
-          />
-          <div
-            class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[7.4rem]"
-          >
-            <h4 class="bg-red p-2 text-2xl font-bold">Skammer du dig nu?</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">
-            Christianshavn Beboerhus
-          </h3>
-        </div>
-      </a>
-      <!-- Forestilling - skammer du dig nu slut-->
-
-      <!-- Forestilling - maskeret start -->
-
-      <a href="" class="block w-full overflow-hidden hover:opacity-75">
-        <div class="relative flex">
-          <img
-            class="h-72 w-full object-cover"
-            src="img/maskeret.webp"
-            alt=""
-          />
-          <div class="absolute top-32 opacity-0 hover:opacity-100 lg:left-44">
-            <h4 class="bg-red p-2 text-2xl font-bold">Maskeret</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">Zeppelin</h3>
-        </div>
-      </a>
-      <!-- Forestilling - maskeret slut-->
-    </div>
-    <!-- Forestillinger - boks 1 slut -->
-
-    <!-- Forestillinger - boks 2 start -->
-    <div class="mx-auto flex max-w-screen-lg gap-6 px-4 sm:px-6 lg:px-8">
-      <!-- Forestilling - alt kører ik start -->
-      <a href="" class="block w-full overflow-hidden hover:opacity-70">
-        <div class="relative flex">
-          <img
-            class="h-72 w-full object-cover"
-            src="img/alt-koerer-ik.webp"
-            alt=""
-          />
-          <div
-            class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[10.4rem]"
-          >
-            <h4 class="bg-red p-2 text-2xl font-bold">Alt kører, ik</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">
-            Vox - Teaterhuset
-          </h3>
-        </div>
-      </a>
-      <!-- Forestilling - alt kører ik slut-->
-
-      <!-- Forestilling - wish start -->
-
-      <a href="" class="block w-full overflow-hidden hover:opacity-75">
-        <div class="relative flex">
-          <img class="h-72 w-full object-cover" src="img/wish.webp" alt="" />
-          <div
-            class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[12rem]"
-          >
-            <h4 class="bg-red p-2 text-2xl font-bold">Wish</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">
-            XENON - Teaterhuset
-          </h3>
-        </div>
-      </a>
-      <!-- Forestilling - wish slut-->
-    </div>
-    <!-- Forestillinger - boks 2 slut -->
-
-    <!-- Forestillinger - boks 3 start -->
-    <div class="mx-auto flex max-w-screen-lg gap-6 px-4 py-6 sm:px-6 lg:px-8">
-      <!-- Forestilling - et surt opstød start -->
-
-      <a href="" class="block w-full overflow-hidden hover:opacity-70">
-        <div class="relative flex">
-          <img
-            class="h-72 w-full object-cover"
-            src="img/et-surt-opstoed.webp"
-            alt=""
-          />
-          <div
-            class="absolute top-32 opacity-0 hover:opacity-100 lg:left-[9.5rem]"
-          >
-            <h4 class="bg-red p-2 text-2xl font-bold">Et surt opstød</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">
-            VOX - Teaterhuset
-          </h3>
-        </div>
-      </a>
-      <!-- Forestilling - et surt opstød slut-->
-
-      <!-- Forestilling - stå ret, få ret start -->
-
-      <a href="" class="block w-full overflow-hidden hover:opacity-75">
-        <div class="relative flex">
-          <img
-            class="h-72 w-full object-cover"
-            src="img/staa-ret-faa-ret.webp"
-            alt=""
-          />
-          <div class="absolute top-32 opacity-0 hover:opacity-100 lg:left-40">
-            <h4 class="bg-red p-2 text-2xl font-bold">Stå ret, få ret</h4>
-          </div>
-
-          <div class="bg-green absolute top-0 w-28 px-4 py-1">
-            <h3 class="text-xl font-medium text-black">Kl. 10.00</h3>
-          </div>
-        </div>
-
-        <div class="bg-green px-4 py-1">
-          <h3 class="text-center text-xl font-bold text-black">Zeppelin</h3>
-        </div>
-      </a>
-      <!-- Forestilling - stå ret, få ret slut-->
-    </div>
-    <!-- Forestillinger - boks 3 slut -->
+    </section>
     <!--Kort start-->
     <div class="mx-auto max-w-screen-lg sm:px-6 lg:px-8">
       <div class="bg-green mb-10">
@@ -439,5 +468,17 @@
     <!-- Footer slut -->
 
     <script type="module" src="index.js"></script>
+    <script src="/mixitup.min.js"></script>
+    <script src="/mixitup-multifilter.min.js"></script>
+
+    <script>
+      var containerEl = document.querySelector(".billeder");
+      var mixer = mixitup(containerEl, {
+        multifilter: {
+          enable: true, // enable the multifilter extension for the mixer
+          logicBetweenGroups: "and",
+        },
+      });
+    </script>
   </body>
 </html>
