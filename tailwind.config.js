@@ -15,6 +15,12 @@ module.exports = {
       },
       backgroundImage: {
         heroBg: "url('/src/img/skammer-du-dig-nu.webp')",
+        heroAltKoerer: "url('/src/img/alt-koerer-ik.webp')",
+        heroSurt: "url('/src/img/et-surt-opstoed.webp')",
+        heroMaskeret: "url('/src/img/maskeret.webp')",
+        heroMona: "url('/src/img/mona-lisa-natten.webp')",
+        heroStaa: "url('/src/img/staa-ret-faa-ret.webp')",
+        heroWish: "url('/src/img/wish.webp')",
       },
     },
   },
