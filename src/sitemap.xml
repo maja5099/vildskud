@@ -7,14 +7,49 @@
       <loc>https://gruppe-4-vildskud.netlify.app/index.html</loc>
     </url>
 
+    <!-- Om vildskud -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/om-vildskud.html</loc>
+    </url>
+
     <!-- Programside -->
     <url>
       <loc>https://gruppe-4-vildskud.netlify.app/programside.html</loc>
     </url>
 
-    <!-- Singleview -->
+    <!-- Singleview alt koerer ik -->
     <url>
-      <loc>https://gruppe-4-vildskud.netlify.app/singleview.html</loc>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-alt-koerer.html</loc>
+    </url>
+    
+    <!-- Singleview maskeret -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-maskeret.html</loc>
+    </url>
+
+    <!-- Singleview mona lisa natten -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-mona-lisa.html</loc>
+    </url>
+
+    <!-- Singleview skam -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-skam.html</loc>
+    </url>
+
+    <!-- Singleview staa ret faa ret -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-staa-ret.html</loc>
+    </url>
+
+    <!-- Singleview surt opstoed -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-surt-opstoed.html</loc>
+    </url>
+
+    <!-- Singleview wish -->
+    <url>
+      <loc>https://gruppe-4-vildskud.netlify.app/singleview-wish.html</loc>
     </url>
 
 </urlset>
