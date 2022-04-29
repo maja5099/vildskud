@@ -8,6 +8,7 @@ module.exports = {
         red: "#F2443B",
         black: "#000000",
         white: "#ffffff",
+        beige: "#F9F6F4",
       },
       fontFamily: {
         anton: "'Anton', sans-serif",
